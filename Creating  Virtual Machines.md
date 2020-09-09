@@ -18,7 +18,7 @@ The objectives in this lab include:
 3. Create a custom virtual machine
    - gcloud beta compute instances create custom-vm --zone=us-west1-b --machine-type=e2-custom-6-32768 --subnet=default --image=debian-10-buster-v20200902 --image-project=debian-cloud --boot-disk-size=10GB --boot-disk-type=pd-standard --boot-disk-device-name=custom-vm 
  
- To explore the newly created VM, one can run the following commands:
+   To explore the custom created VM, one can run the following commands:
    - free                  # To see information about unused and used memory and swap space on your custom VM
    - sudo dmidecode -t 17  # To see he RAM of the machine
    - nproc                 # To view the number of processors
